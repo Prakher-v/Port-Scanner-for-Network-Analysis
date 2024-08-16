@@ -7,7 +7,6 @@ import datetime
 
 def scanning(target, ports):
 
-    print('\n' + ' Starting Scan For ' + str(target))
     print("-" * 50)
     print("Scanning target: " + target)
     print("Time started: " + str(datetime.datetime.now()))
