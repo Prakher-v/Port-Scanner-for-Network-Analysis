@@ -1,3 +1,4 @@
+#!/bin/python
 #This scoket liberary we used for connecting two nodes...
 import socket
 #This tremcolor liberary we used for make our output window look good and can find important things by different color.
