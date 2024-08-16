@@ -22,8 +22,8 @@ def scanning_port(ipaddress, port):
     except:
         pass
 
-targets = input("[*] Enter Target TO Scan(split them by \",\")")
-ports = int(input("[*] Enter Number Of Ports To Scan:"))
+targets = input("[*] Enter Target TO Scan(split them by \",\") : ")
+ports = int(input("[*] Enter Number Of Ports To Scan : "))
 
 if ',' in targets:
 
