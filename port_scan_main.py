@@ -5,7 +5,7 @@ import termcolor
 
 def scanning(target, ports):
 
-    print('\n' + ' Starting Scan For' + str(target))
+    print('\n' + ' Starting Scan For ' + str(target))
 
     for port in range(1, ports):
         scanning_port(target, port)
