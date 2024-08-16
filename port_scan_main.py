@@ -3,9 +3,16 @@ import socket
 #This tremcolor liberary we used for make our output window look good and can find important things by different color.
 import termcolor
 
+import datetime
+
 def scanning(target, ports):
 
     print('\n' + ' Starting Scan For ' + str(target))
+    print("-" * 50)
+    print("Scanning target: " + target)
+    print("Time started: " + str(datetime.datetime.now()))
+    print("-" * 50)
+
 
     for port in range(1, ports):
         scanning_port(target, port)
