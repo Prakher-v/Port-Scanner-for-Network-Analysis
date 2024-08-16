@@ -27,7 +27,7 @@ ports = int(input("[*] Enter Number Of Ports To Scan : "))
 
 if ',' in targets:
 
-    print(tremcolor.colored(("[*] Scanning Multiple Tragets"), 'green'))
+    print(termcolor.colored(("[*] Scanning Multiple Targets"), 'green'))
 
     for ip_add in targets.split(','):
         scanning(ip_add.strip(' '), ports)
